@@ -106,7 +106,6 @@ input {
 @media (max-width: 1000px)
   {
     html{
-      background-color: aqua;
       font-size: 1.5em;
     }
   }
