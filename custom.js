@@ -12,6 +12,7 @@ btn.addEventListener("click", function () {
     }else {
         alert("Please enter valid color!!!");
     }
+    color.textContent = text;
 });
 
 const colorChecker = color => {
