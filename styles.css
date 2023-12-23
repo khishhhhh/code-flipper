@@ -1,0 +1,238 @@
+/*buh elementiig tohiruulahad amarhan bolgoh*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    font-size: 2em;
+}
+
+
+/* navigation bar iig ynzlah */
+nav {
+    background-color: pink;
+    text-transform: uppercase;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.nav-center {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+h4 {
+    margin-left: 1em;
+}
+
+.nav-links {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    height: 100%;
+    padding: 1em;
+    width: 33%;
+    min-width: 6em;
+}
+a {
+    height: 100%;
+    color: black;
+    text-decoration: none;
+
+}
+li:hover {
+    background-color: rgb(220, 165, 174);
+}
+
+/* main hesegt baigaa elementuudiin style */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: auto;
+    height: 50vh;
+}
+h2 {
+  margin-bottom: 0.5em;
+}
+#btn {
+    font-size: 2em;
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 0.5em;
+    margin: 0.5em;
+}
+h1 {
+    text-align: center;
+}
+
+/* Zovhon custom html deer ajillah style */
+form {
+  
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.search__btn {
+  background-color: pink;
+  padding: 0.5em 2em;
+  font-size: 1em;
+  text-align: center;
+}
+.search__btn:hover {
+  background-color: rgb(220, 165, 174);
+}
+input {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+  font-size: 1em;
+  padding: 0.5em;
+}
+
+
+/*
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    
+  }
+  body { background-color:pink;
+  }
+  nav{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  li {
+    list-style-type: none;
+    font-size: 1.5em;
+    padding:0.6em;
+    text-align: center;
+  }
+  .nav_link {
+    color: white;
+    
+  }
+  .nav_link:hover{
+    color: #944761;
+  }
+  section {
+    min-height: 100vh;
+    padding: 5em;
+  }
+  #welcome-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #welcome-section h1{
+    padding: 1em;
+  }
+  #projects{
+    background-color: #944761;
+  }
+  .tiles{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+  }
+  .project-tile {
+    width: 48%;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 1em 1em 0 0;
+    object-fit: cover;
+  }
+  .project-titles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: -1em;
+    border-radius: 0 0 1em 1em;
+  }
+  h3{
+    margin-bottom: 1em;
+  }
+  #contacts {
+    background-color: #944761;
+  }
+  #my-drawings img{
+    border-radius: 1em;
+    width: 48%;
+  }
+  .drawings{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+  }
+  #contacts {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .social-accounts{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .social-accounts a {
+    color: black;
+    font-size: 2em;
+  }
+  
+  @media (max-width: 50em)
+  {
+    ul {
+      flex-wrap: wrap;
+      justify-content: space-evenly; 
+  
+    }
+    li {
+          font-size: 1.2em; 
+    }
+    section{
+      padding-top: 9em;
+    }
+    .project-tile{
+      width: 100%;
+    }
+    #my-drawings img{
+      width: 100%;
+      margin-bottom: 1em;
+    }
+  }
+  
+  
+  /
