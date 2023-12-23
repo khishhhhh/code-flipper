@@ -28,7 +28,7 @@ nav {
     align-items: center;
 }
 h4 {
-    margin-left: 1em;
+    margin-left: 1rem;
 }
 
 .nav-links {
@@ -44,7 +44,7 @@ li {
     height: 100%;
     padding: 1em;
     width: 33%;
-    min-width: 6em;
+    min-width: 6rem;
 }
 a {
     height: 100%;
@@ -88,8 +88,8 @@ form {
 }
 .search__btn {
   background-color: pink;
-  padding: 0.5em 2em;
-  font-size: 1em;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
   text-align: center;
 }
 .search__btn:hover {
@@ -99,11 +99,17 @@ input {
   height: 100%;
   margin: 0;
   width: 100%;
-  font-size: 1em;
+  font-size: 1rem;
   padding: 0.5em;
 }
 
-
+@media (max-width: 1000px)
+  {
+    html{
+      background-color: aqua;
+      font-size: 1.5em;
+    }
+  }
 /*
 * {
     box-sizing: border-box;
